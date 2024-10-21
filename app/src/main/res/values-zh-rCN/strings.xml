@@ -1,0 +1,271 @@
+<resources>
+    <string name="app_name">卷尺</string>
+    <string name="app_name_long">隐私友好的卷尺</string>
+
+    <!-- ###DRAWER###-->
+    <string name="action_ruler">屏幕卷尺</string>
+    <string name="action_camera">相机卷尺</string>
+    <string name="action_help">帮助</string>
+    <string name="action_about">关于</string>
+    <string name="action_settings">设置</string>
+    <string name="action_tutorial">教程</string>
+
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+
+    <!-- ###RULER### -->
+    <string name="screen_ruler">屏幕卷尺</string>
+    <string name="action_calibration">校准</string>
+    <string name="action_reset_calibration">重置校准</string>
+
+    <!-- ###CAMERA### -->
+    <string name="description_camera_gallery">获取一张可测量的图片。您可以使用相机拍照或使用手机内存中的图片。</string>
+    <string name="from_camera">来自相机的图片</string>
+    <string name="from_gallery">来自图库的图片</string>
+    <string name="reference_self_intersecting">参考物体不能自交。</string>
+    <string name="camera_ruler">相机卷尺</string>
+    <string name="camera_crash">相机应用崩溃。</string>
+    <string name="gallery_crash">图库应用崩溃。</string>
+    <string name="reference_phase_title">放置参考物体</string>
+    <string name="measurement_phase_title">测量</string>
+    <string name="new_tetragon">新四边形</string>
+    <string name="new_triangle">新三角形</string>
+    <string name="new_circle">新圆形</string>
+    <string name="new_line">新线段</string>
+    <string name="confirm_reference">确认参考</string>
+    <string name="length">长度：</string>
+    <string name="area">面积：</string>
+    <string name="self_intersection_warning">无法计算自交多边形的面积。</string>
+
+    <!-- ###PREDEFINED REFERENCE OBJECTS### -->
+    <!-- ###US COINS### -->
+    <string name="us_penny_coin">美国便士</string>
+    <string name="us_nickel_coin">5美分硬币（镍币）</string>
+    <string name="us_dime_coin">10美分硬币（迪姆币）</string>
+    <string name="us_quarter_coin">25美分硬币（季度币）</string>
+    <string name="us_dollar_coin">1美元硬币</string>
+    <string name="fifty_usd_cent_coin">50美分硬币</string>
+    <!-- ###EURO COINS### -->
+    <string name="one_euro_cent_coin">1欧分硬币</string>
+    <string name="two_euro_cent_coin">2欧分硬币</string>
+    <string name="five_euro_cent_coin">5欧分硬币</string>
+    <string name="ten_euro_cent_coin">10欧分硬币</string>
+    <string name="twenty_euro_cent_coin">20欧分硬币</string>
+    <string name="fifty_euro_cent_coin">50欧分硬币</string>
+    <string name="one_euro_coin">1欧元硬币</string>
+    <string name="two_euro_coin">2欧元硬币</string>
+    <!-- ###BRITISH POUND COINS### -->
+    <string name="gb_penny_coin">英镑便士</string>
+    <string name="two_pence_coin">2便士硬币</string>
+    <string name="five_pence_coin">5便士硬币</string>
+    <string name="ten_pence_coin">10便士硬币</string>
+    <string name="twenty_pence_coin">20便士硬币</string>
+    <string name="fifty_pence_coin">50便士硬币</string>
+    <string name="one_pound_coin">1英镑硬币</string>
+    <string name="two_pound_coin">2英镑硬币</string>
+    <!-- ###US DOLLAR COINS### -->
+    <string name="us_dollar_note">美元纸币</string>
+    <!-- ###EURO NOTES### -->
+    <string name="five_euro_note">5欧元纸币</string>
+    <string name="ten_euro_note">10欧元纸币</string>
+    <string name="twenty_euro_note">20欧元纸币</string>
+    <string name="fifty_euro_note">50欧元纸币</string>
+    <string name="hundred_euro_note">100欧元纸币</string>
+    <string name="two_hundred_euro_note">200欧元纸币</string>
+    <string name="five_hundred_euro_note">500欧元纸币</string>
+    <!-- ###BRITISH POUND NOTES### -->
+    <string name="five_pound_note">5英镑纸币</string>
+    <string name="ten_pound_note">10英镑纸币</string>
+    <string name="twenty_pound_note">20英镑纸币</string>
+    <string name="fifty_pound_note">50英镑纸币</string>
+    <!-- ###SWEDISH KRONA COINS### -->
+    <string name="one_krona_coin">1克朗硬币</string>
+    <string name="two_krona_coin">2克朗硬币</string>
+    <string name="five_krona_coin">5克朗硬币</string>
+    <string name="ten_krona_coin">10克朗硬币</string>
+    <!-- ###SWEDISH KRONA NOTES### -->
+    <string name="twenty_krona_note">20克朗纸币</string>
+    <string name="fifty_krona_note">50克朗纸币</string>
+    <string name="hundred_krona_note">100克朗纸币</string>
+    <string name="two_hundred_krona_note">200克朗纸币</string>
+    <string name="five_hundred_krona_note">500克朗纸币</string>
+    <string name="thousand_krona_note">1000克朗纸币</string>
+    <!-- ###RUSSIAN RUBLE COINS### -->
+    <string name="ten_kopeyka_coin">10科佩克硬币</string>
+    <string name="fifty_kopeyka_coin">50科佩克硬币</string>
+    <string name="one_ruble_coin">1卢布硬币</string>
+    <string name="two_ruble_coin">2卢布硬币</string>
+    <string name="five_ruble_coin">5卢布硬币</string>
+    <string name="ten_ruble_coin">10卢布硬币</string>
+    <!-- ###RUSSIAN RUBLE NOTES### -->
+    <string name="fifty_ruble_note">50卢布纸币</string>
+    <string name="hundred_ruble_note">100卢布纸币</string>
+    <string name="five_hundred_ruble_note">500卢布纸币</string>
+    <string name="thousand_ruble_note">1000卢布纸币</string>
+    <string name="five_thousand_ruble_note">5000卢布纸币</string>
+    <!-- ###JAPANESE YEN COINS### -->
+    <string name="one_yen_coin">1日元硬币</string>
+    <string name="five_yen_coin">5日元硬币</string>
+    <string name="ten_yen_coin">10日元硬币</string>
+    <string name="fifty_yen_coin">50日元硬币</string>
+    <string name="hundred_yen_coin">100日元硬币</string>
+    <string name="five_hundred_yen_coin">500日元硬币</string>
+    <!-- ###JAPANESE YEN NOTES### -->
+    <string name="thousand_yen_note">1000日元纸币</string>
+    <string name="two_thousand_yen_note">2000日元纸币</string>
+    <string name="five_thousand_yen_note">5000日元纸币</string>
+    <string name="ten_thousand_yen_note">10000日元纸币</string>
+    <!-- ###US PAPER### -->
+    <string name="letter_paper">信纸</string>
+    <string name="legal_paper">法律纸</string>
+    <string name="tabloid_paper">小报纸</string>
+    <string name="ledger_paper">分类账纸</string>
+    <string name="junior_legal_paper">初级法律纸</string>
+    <string name="memo_paper">备忘录纸</string>
+    <string name="government_letter_paper">政府信纸</string>
+    <string name="government_legal_paper">政府法律纸</string>
+    <!-- ###ISO 216 PAPER (A-SERIES)### -->
+    <string name="a0_paper">A0纸</string>
+    <string name="a1_paper">A1纸</string>
+    <string name="a2_paper">A2纸</string>
+    <string name="a3_paper">A3纸</string>
+    <string name="a4_paper">A4纸</string>
+    <string name="a5_paper">A5纸</string>
+    <string name="a6_paper">A6纸</string>
+
+    <!-- ###CALIBRATION### -->
+    <string name="measureLineHeading">1. 测量</string>
+    <string name="measureLine">请尽可能精确地测量左侧线的长度。</string>
+    <string name="headingEnter">2. 输入测量长度</string>
+    <string name="calibrationMM">毫米</string>
+    <string name="calibrationInch">英寸</string>
+    <string name="calibrateConfirmButton">校准</string>
+    <string name="calibrationWarning">手动校准不能消除因四舍五入造成的不准确性。请勿将此应用程序用作专业校准测量设备。</string>
+    <string name="calibrate">校准</string>
+    <string name="noInput">请填写线的长度。</string>
+    <string name="calibrationDone">校准完成。</string>
+
+    <!--###HELP###-->
+    <string name="help">帮助</string>
+    <string name="help_overview_heading">概述</string>
+    <string name="help_calibration">手动校准</string>
+    <string name="help_disclaimer">免责声明</string>
+    <string name="help_category_calibration">校准</string>
+    <string name="pref_calibration_summary">您可以通过操作菜单中的“校准”选项手动校准卷尺。</string>
+    <string name="pref_disclaimer_summary">本应用程序不是专业校准测量设备。SECUSO不对使用本应用程序造成的任何损害负责。</string>
+    <string name="help_privacy_heading">隐私信息</string>
+    <string name="help_category_options">设置</string>
+    <string name="help_units">左侧和右侧卷尺</string>
+    <string name="pref_units_summary">您可以在屏幕左侧和右侧显示厘米卷尺、英寸卷尺或不显示卷尺。两个卷尺可以在选项菜单中单独设置。</string>
+    <string name="help_angles">角度测量</string>
+    <string name="pref_angles_summary">您可以在屏幕左侧显示角度测量（以度数或弧度表示），而不是卷尺。</string>
+    <string name="help_intro">隐私友好的卷尺将您的手机变成一个快速测量工具。</string>
+    <string name="help_camera_ruler_heading">相机卷尺</string>
+    <string name="help_camera_ruler1">您可以选择使用相机拍照或使用图库中的图片。请确保所有相关物体处于同一平面，且照片是垂直于该平面拍摄的。</string>
+    <string name="help_camera_ruler2">从右上角的菜单中选择所需的参考物体，将绿色形状放置在照片中的参考物体上，然后按右下角的按钮。</string>
+    <string name="help_camera_ruler3">现在，您可以通过右下角的按钮选择要测量的物体。您可以测量线段的长度以及三角形、圆形和四边形的面积。</string>
+    <string name="help_permission">权限</string>
+    <string name="help_permission_answer">隐私友好的卷尺在拍照和测量照片时不需要任何权限。拍摄图库中的照片需要读取外部存储权限，因为大多数照片并不存储在内部存储中。</string>
+
+    <!--###ABOUT###-->
+    <string name="about">关于</string>
+    <string name="version_number">版本 v%s</string>
+    <string name="about_author">作者：</string>
+    <string name="about_author_names" translatable="false">Roberts Kolosovs</string>
+    <string name="about_author_contributors">及其他贡献者。</string>
+    <string name="about_affiliation">合作机构：</string>
+    <string name="privacy_friendly">此应用程序属于由SECUSO研究小组开发的隐私友好应用程序系列。源代码采用GPLv3许可证。图像版权归SECUSO和谷歌公司所有。</string>
+    <string name="more_info">更多信息请访问：</string>
+    <string name="github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-camera-ruler">Github代码库</a></string>
+    <string name="url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO官网</a></string>
+
+    <!-- ###SETTINGS### -->
+    <!-- ###SCREEN RULER### -->
+    <string name="title_activity_settings">设置</string>
+    <string name="pref_ruler">卷尺设置</string>
+    <string name="pref_leftruler">左侧卷尺</string>
+    <string name="pref_leftruler_verbose">左侧卷尺应显示什么？</string>
+    <string name="pref_leftruler_default" translatable="false">厘米</string>
+    <string name="pref_rightruler">右侧卷尺</string>
+    <string name="pref_rightruler_verbose">右侧卷尺应显示什么？</string>
+    <string name="pref_rightruler_default" translatable="false">英寸</string>
+    <string name="ruler_cm">卷尺（厘米）</string>
+    <string name="ruler_inch">卷尺（英寸）</string>
+    <string name="ruler_degree">角度测量（度数）</string>
+    <string name="ruler_radian">角度测量（弧度）</string>
+    <string name="ruler_off">不显示</string>
+
+    <!-- ###CAMERA RULER### -->
+    <string name="camera_ruler_settings">相机卷尺设置</string>
+    <string name="pref_units_of_measurement">测量单位</string>
+    <string name="pref_uom_verbose">屏幕卷尺应使用什么测量单位？</string>
+    <string name="units_si">国际单位制（SI）</string>
+    <string name="units_imperial">英制单位</string>
+    <string name="pref_uom_default" translatable="false">毫米</string>
+    <string name="pref_type_selection">参考类型选择</string>
+    <string name="pref_type_selection_verbose">应使用哪些参考物体类型？</string>
+    <string name="pref_type_selection_summary">禁用您不想使用的参考物体类别。</string>
+    <string name="pref_edit_user_def_refs">编辑用户定义的参考</string>
+    
+    <!-- ###OBJECT TYPES### -->
+    <string name="category_us_coins">美元硬币</string>
+    <string name="category_us_notes">美元纸币</string>
+    <string name="category_eu_coins">欧元硬币</string>
+    <string name="category_eu_notes">欧元纸币</string>
+    <string name="category_pound_coins">英镑硬币</string>
+    <string name="category_pound_notes">英镑纸币</string>
+    <string name="category_sek_coins">瑞典克朗硬币</string>
+    <string name="category_sek_notes">瑞典克朗纸币</string>
+    <string name="category_rub_coins">俄罗斯卢布硬币</string>
+    <string name="category_rub_notes">俄罗斯卢布纸币</string>
+    <string name="category_yen_coins">日元硬币</string>
+    <string name="category_yen_notes">日元纸币</string>
+    <string name="category_iso216_paper">ISO 216纸（A系列）</string>
+    <string name="category_us_paper">美国纸张</string>
+
+    <!-- ###USER DEFINED REFERENCE EDITOR### -->
+    <string name="title_activity_ref_viewer">用户定义的参考</string>
+    <string name="list_item">空闲位置</string>
+    <string name="edit_dialog_title">编辑参考物体</string>
+    <string name="toast_input_failure">输入无效。</string>
+    <string name="toast_edit_done">用户定义的参考设置成功。</string>
+    <string name="toast_delete_done">用户设置的参考已删除。</string>
+    <string name="edit_name">名称：</string>
+    <string name="edit_shape">形状：</string>
+    <string name="edit_line">线</string>
+    <string name="edit_circle">圆形</string>
+    <string name="edit_tetragon">四边形</string>
+    <string name="edit_size">大小：</string>
+    <string name="diameter">直径：</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+
+    <!-- ### DISCLAIMER DIALOG ### -->
+    <string name="disclaimer_dialog_title">免责声明</string>
+    <string name="disclaimer">此应用程序不是专业校准的测量设备。此应用程序可以手动校准，以尽量减少误差。然而，根据设备，仍可能存在舍入误差。</string>
+    <string name="disclaimer_check">我已阅读关于潜在舍入问题的免责声明。</string>
+    <string name="disclaimer_check_toast">请确认您已阅读免责声明。</string>
+
+    <!-- ### TUTORIAL SCREEN ### -->
+    <string name="slide1_heading">欢迎</string>
+    <string name="slide1_text">使用隐私友好的卷尺，您可以通过拍摄对象与已知大小的参考物体（如硬币）的照片来测量大于您手机的物体。</string>
+
+    <string name="slide2_heading">如何测量</string>
+    <string name="slide2_text">您可以选择使用相机拍照或从图库中选择一张照片。请确保所有相关物体处于同一平面，并且照片是垂直于该平面拍摄的。</string>
+
+    <string name="slide3_heading">如何测量</string>
+    <string name="slide3_text">从右上角的菜单中选择所需的参考物体，将绿色形状放置在照片中的参考物体上，然后按右下角的按钮。现在您可以通过右下角的按钮选择要测量的物体。您可以测量线段的长度以及三角形、圆形和四边形的面积。</string>
+
+    <string name="next">下一步</string>
+    <string name="skip">跳过</string>
+    <string name="okay">好的</string>
+    <string name="view_help">查看帮助</string>
+    <string name="help_uom">测量单位</string>
+    <string name="help_ref_types">参考类型选择</string>
+    <string name="help_ref_editor">编辑用户定义的参考</string>
+    <string name="pref_uom_summary">您可以设置在相机卷尺中使用的测量单位。</string>
+    <string name="pref_ref_types_summary">您可以禁用某些类型的预定义参考物体。这些物体在选择参考物体时将不会显示在菜单中。</string>
+    <string name="pref_ref_editor_summary">在这里，您可以定义和管理用户定义的参考物体（最多10个）。</string>
+    <string name="select_image_from_gallery">从图库中选择图片</string>
+</resources>
+
